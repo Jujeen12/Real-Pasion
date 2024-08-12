@@ -160,15 +160,16 @@ h3, p, a{
 }
 
 .btn-v1{
-    background-color: #2440fb;
+    background-color: #fd460a;
     border: none;
     display: inline-block;
     margin-bottom: 2rem;
     font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 
 .btn-v1:hover{
-    background-color: #f1fe33;
+    background-color: #fd460a;
 }
 
 .btn-v:hover{
