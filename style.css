@@ -426,8 +426,12 @@ a {
     margin-bottom: 1rem;
     height: 210px;
     width: 184px;
-    padding-left: 200px;
 }
+
+.imagenes2 {
+padding-left: 200px;
+}
+    
 .menu{
     padding-top: 4rem;
 }
