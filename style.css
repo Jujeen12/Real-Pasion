@@ -235,7 +235,7 @@ h3, p, a{
     height: 100vh;
     width: 41rem;
     padding: 3rem 4rem;
-    background-color: #2da0b1a8;
+    background-color: #fd460a;
     animation: desplazamiento .5s ease-in-out;
     z-index: 5;
     
