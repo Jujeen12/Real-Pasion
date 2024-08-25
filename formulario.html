@@ -1,89 +1,81 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contacto</title>
-    
-    <script src="https://kit.fontawesome.com/283335a286.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style2.css">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/style2.css">
 </head>
-
 <body>
-    <header class="encabezado">
-        <div class="contenedor-navegacion">
-            <div class="contenido-navegacion contenedor">
-                <div class="logo">
-                    <h2>Real Pasion F.C</h2>
+        
+    <div class="container">
+        <div class="container-form">
+            <form class="sign-in">
+                <h2>Iniciar Sesión</h2>
+                <div class="social-networks">
+                    <ion-icon name="logo-twitch"></ion-icon>
+                    <ion-icon name="logo-twitter"></ion-icon>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <ion-icon name="logo-tiktok"></ion-icon>
                 </div>
-                <nav class="navegacion ocultar">
-                    <a href="index.html">Inicio</a>
-                    <a href="deporte/index.html">Sobre Nosotros</a>
-                    <a href="contacto/index.html">Contacto</a>
-                </nav>
-                <div class="acordeon">
-                    <span></span><span></span><span></span>
+                <span>Use su correo y contraseña</span>
+                <div class="container-input">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <input type="text" placeholder="Email">
                 </div>
-            </div>
-        </div>
-    </header>
-    <form action="" method="post">
-        <h2>Iniciar Sesión</h2>
-        <br>
-        <label for="usuario">Usuario</label>
-        <input type="text" name="usuario">
-        <br><br>
-        <label for="contraseña">Contraseña</label>
-        <input type="password" name="palabra_secreta">
-        <br><br>
-        <input type="submit" value="Iniciar sesión">
-    </form>
-
-    <div class="pie-pagina ">
-        <div class="contenedor-piepagina contenedor">
-
-            <div class="info">
-                <img data-src="img/logo.png" alt="">
-            </div>
-            <div class="info">
-                <h3>Dirección</h3>
-                <p>Funza, Cundinamarca</p>
-            </div>
-    
-            <div class="info">
-                <h3>Contacto</h3>
-                <p>3143050707</p>
-                <p>3187091197</p>
-            </div>
-            <div class="info">
-                <h3>Horarios</h3>
-                <p>Miercoles - Viernes 3pm - 6pm</p>
-                <p>Sabado 8am - 11am</p>
-                <div class="redes-sociales redes-pie">
-                    <a href="https://www.facebook.com/profile.php?id=100063746286057&sfnsn=scwspwa&mibextid=RUbZ1f"><i class="fab fa-facebook-square"></i></a>
-                    <a href=""><i class="fab fa-twitter-square"></i></a>
-                    <a href="https://www.instagram.com/real.pasionfc?igsh=amt6eThkeHlwd2s1"><i class="fab fa-instagram"></i></a>
-                    <a href=""><i class="fab fa-tiktok"></i></a>
+                <div class="container-input">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input type="password" placeholder="Password">
                 </div>
-            </div>
-            <div class="info">
-                <h3>Noticias</h3>
-                <p>Suscribete para recibir más noticias</p>
-                <form action="" method="POST">
-                <input type="email" name="email" id="phone" placeholder="Tu correo">
-                <input type="submit" class="btn btn-verde" value="Suscribirse">
-                
+                <a href="#">¿Olvidaste tu contraseña?</a>
+                <button class="button">INICIAR SESIÓN</button>
             </form>
+        </div>
+
+        <div class="container-form">
+            <form class="sign-up">
+                <h2>Registrarse</h2>
+                <div class="social-networks">
+                    <ion-icon name="logo-twitch"></ion-icon>
+                    <ion-icon name="logo-twitter"></ion-icon>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <ion-icon name="logo-tiktok"></ion-icon>
+                </div>
+                <span>Use su correo electrónico para registrarse</span>
+                <div class="container-input">
+                    <ion-icon name="person-outline"></ion-icon>
+                    <input type="text" placeholder="Nombre">
+                </div>
+                <div class="container-input">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="container-input">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input type="password" placeholder="Password">
+                </div>
+                <button class="button" >REGISTRARSE</button>
+            </form>
+        </div>
+
+        <div class="container-welcome">
+            <div class="welcome-sign-up welcome">
+                <h3>¡Bienvenido!</h3>
+                <p>Ingrese sus datos personales para usar todas las funciones del sitio</p>
+                <button class="button" id="btn-sign-up">Registrarse</button>
+            </div>
+            <div class="welcome-sign-in welcome">
+                <h3>¡Hola!</h3>
+                <p>Regístrese con sus datos personales para usar todas las funciones del sitio</p>
+                <button class="button" id="btn-sign-in">Iniciar Sesión</button>
             </div>
         </div>
+
     </div>
+
+
+    <script src="/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
-<script src="app.js"></script>
-<script src="https://kit.fontawesome.com/74f1d32606.js" crossorigin="anonymous"></script>
 </html>
