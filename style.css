@@ -539,7 +539,7 @@ a {
     right: 0;
     left: 0;
     bottom: 0;
-    background-color: #f1fe33;
+    background-color: black;
     z-index: -1;
 }
 
@@ -561,12 +561,14 @@ a {
         text-align: left;
         font-size: 5rem;
         color: var(--blanco);
+        color: white;
     }
 }
 .contenido-separador p{
     color: var(--blanco);
     font-size: 3rem;
     text-align: center;
+    color: white;
 }
 @media(min-width: 768px) {
     .contenido-separador p{
