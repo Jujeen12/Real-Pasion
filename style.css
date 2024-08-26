@@ -1,4 +1,9 @@
-
+:root{
+    --naranja:#fd460a;
+    --azul:#2440fb;
+    --amarillo:#f1fe33;
+    --parrafos:'Mulish', sans-serif;
+}
 html{
     box-sizing: border-box;
     font-size: 62.5%;
