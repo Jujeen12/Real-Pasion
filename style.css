@@ -51,9 +51,10 @@ h3, p, a{
 
 .fotones video {
     max-width: 395px;
-    width: 420px;
-    height: 226px;
-    border-radius: 13px;
+    width: 320px;
+    height: 380px;
+    border-radius: 700px;
+    margin-left: 50px;
 }
 
 .verde{
