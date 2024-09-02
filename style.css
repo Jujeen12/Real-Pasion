@@ -110,7 +110,7 @@ h3, p, a{
 
 .btn{
     text-decoration: none;
-    color: var(--blanco);
+    color: white;
     font-size: 2rem;
     text-transform: capitalize;
     padding: 1rem 5rem;
